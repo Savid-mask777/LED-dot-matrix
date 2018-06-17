@@ -18,18 +18,25 @@ Hex Converter:   OH51.exe V2.7.0.0
 CPU DLL:         S8051.DLL V3.100.0.0
 Dialog DLL:      DP51.DLL V2.62.0.1 
 <h2>Project:</h2>
-C:\Users\12092\Desktop\led\C≥Ã–ÚLED\led.uvproj
+C:\Users\12092\Desktop\led\C≥Ã–ÚLED (2)\led.uvproj
 Project File Date:  05/20/2018
 
 <h2>Output:</h2>
 Rebuild target 'Target 1'
 assembling STARTUP.A51...
 compiling led.c...
+led.c(176): warning C280: 'n': unreferenced local variable
+led.c(219): warning C280: 'n': unreferenced local variable
+led.c(219): warning C280: 'i': unreferenced local variable
 linking...
-Program Size: data=19.0 xdata=0 code=653
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CLEAR_LED?LED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_HC595SEND?LED
+Program Size: data=29.0 xdata=0 code=1175
 creating hex file from ".\Objects\led"...
-".\Objects\led" - 0 Error(s), 0 Warning(s).
-Build Time Elapsed:  00:00:00
+".\Objects\led" - 0 Error(s), 5 Warning(s).
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>
